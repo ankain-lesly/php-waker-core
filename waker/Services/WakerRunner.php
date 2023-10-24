@@ -7,10 +7,10 @@
 
 namespace Devlee\Framework\Waker\Services;
 
-use Devlee\CliTool\WakerCLI;
 use Devlee\Framework\Waker\Commands\ControllerCommand;
 use Devlee\Framework\Waker\Commands\ModelCommand;
 use Devlee\Framework\Waker\Commands\RouteCommand;
+use Devlee\WakerCLI\WakerCLI;
 
 /**
  * @author  Ankain Lesly <leeleslyank@gmail.com>

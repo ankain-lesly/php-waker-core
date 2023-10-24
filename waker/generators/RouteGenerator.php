@@ -46,7 +46,7 @@ class RouteGenerator
     $body = <<<'EOF'
 <?php
 
-use Devlee\PHPRouter\Router;
+use Devlee\WakerRouter\Router;
 
 // Custom Route {{routeName}}
 ${{routeName}} = Router::useRoute();

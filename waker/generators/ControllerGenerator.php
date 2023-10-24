@@ -71,8 +71,8 @@ class ControllerGenerator
 
 namespace App\Controllers;
 
-use Devlee\PHPRouter\Request;
-use Devlee\PHPRouter\Response; 
+use Devlee\WakerRouter\Request;
+use Devlee\WakerRouter\Response; 
 
 /**
  * Generated Controller

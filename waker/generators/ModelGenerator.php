@@ -70,7 +70,7 @@ class ModelGenerator
 
     // Generating Validation Schema
     if ($this->options['validate'] ?? false) {
-      $schema_namespace = "use Devlee\PHPMVCCore\Services\ObjectSchema;\n";
+      $schema_namespace = "use Devlee\WakerORM\Services\ObjectSchema;\n";
       $validation_schema = $this->generateValidationSchema($this->options['properties'] ?? []);
     }
 
@@ -93,7 +93,7 @@ class ModelGenerator
 
 namespace App\Models;
 
-use Devlee\PHPMVCCore\DB\Model;
+use Devlee\WakerORM\DB\Model;
 {{schema_namespace}}
 
 /**

@@ -7,11 +7,11 @@
 
 namespace Devlee\Framework\Waker\Commands;
 
-use Devlee\CliTool\Commands\Command;
-use Devlee\CliTool\Input\Input;
-use Devlee\CliTool\Input\InputInterface;
-use Devlee\CliTool\Output\OutputInterface;
 use Devlee\Framework\Waker\Generators\ControllerGenerator;
+use Devlee\WakerCLI\Commands\Command;
+use Devlee\WakerCLI\Input\Input;
+use Devlee\WakerCLI\Input\InputInterface;
+use Devlee\WakerCLI\Output\OutputInterface;
 
 /**
  * @author  Ankain Lesly <leeleslyank@gmail.com>

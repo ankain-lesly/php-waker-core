@@ -23,5 +23,8 @@
   "homepage": "",
   "license": "MIT",
   "minimum-stability": "dev",
-  "require": {}
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "twig/twig": "^3.7"
+  }
 }
