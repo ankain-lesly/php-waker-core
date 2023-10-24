@@ -1,3 +1,3 @@
-# Devlee PHP Framework _Waker_
+# PHP Waker Framework
 
-A Solid MINI PHP MVC Framework: Waker
+A Solid mini PHP MVC Framework: Waker
