@@ -1,0 +1,27 @@
+{
+  "name": "devlee/waker-framework",
+  "description": "A Solid MINI PHP MVC Framework: Waker",
+  "type": "library",
+  "keywords": [
+    "php framework",
+    "orm",
+    "router"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Devlee\\Framework\\Waker\\": "waker/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ankain Lesly",
+      "email": "leeleslyank@gmail.com",
+      "role": "Project Founder",
+      "homepage": "https://www.letech-cg.com"
+    }
+  ],
+  "homepage": "",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {}
+}
